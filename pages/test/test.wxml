@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<text>
+  accelerometerX = {{accelerometerX}}
+  accelerometerY = {{accelerometerY}}
+  accelerometerZ = {{accelerometerZ}}
+</text>
