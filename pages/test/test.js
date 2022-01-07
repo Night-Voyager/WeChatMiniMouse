@@ -32,17 +32,17 @@ Page({
     wx.startAccelerometer();
 
     // 启动罗盘
-    wx.startCompass({
-      success: (res) => {
-        console.log("Compass start")
-      },
-    });
+    // wx.startCompass({
+    //   success: (res) => {
+    //     console.log("Compass start")
+    //   },
+    // });
 
     // 启动设备方向监听
-    wx.startDeviceMotionListening();
+    // wx.startDeviceMotionListening();
 
     // 启动陀螺仪
-    wx.startGyroscope();
+    // wx.startGyroscope();
 
     /**
      * 读取数据
@@ -69,17 +69,17 @@ Page({
     wx.stopAccelerometer();
 
     // 关闭罗盘
-    wx.stopCompass({
-      success: (res) => {
-        console.log("Compass start")
-      },
-    });
+    // wx.stopCompass({
+    //   success: (res) => {
+    //     console.log("Compass start")
+    //   },
+    // });
 
     // 关闭设备方向监听
-    wx.stopDeviceMotionListening();
+    // wx.stopDeviceMotionListening();
 
     // 关闭陀螺仪
-    wx.stopGyroscope();
+    // wx.stopGyroscope();
   },
 
   /**
@@ -90,17 +90,17 @@ Page({
     wx.stopAccelerometer();
 
     // 关闭罗盘
-    wx.stopCompass({
-      success: (res) => {
-        console.log("Compass start")
-      },
-    });
+    // wx.stopCompass({
+    //   success: (res) => {
+    //     console.log("Compass start")
+    //   },
+    // });
 
     // 关闭设备方向监听
-    wx.stopDeviceMotionListening();
+    // wx.stopDeviceMotionListening();
 
     // 关闭陀螺仪
-    wx.stopGyroscope();
+    // wx.stopGyroscope();
   },
 
   /**
