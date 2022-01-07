@@ -49,12 +49,15 @@ Page({
      */
     // 加速计
     wx.onAccelerometerChange((result) => {
+      let accelerometerDeltaX = result.x - this.data.accelerometerX;
+      let accelerometerDeltaY = result.y - this.data.accelerometerY;
+      let accelerometerDeltaZ = result.z - this.data.accelerometerZ;
       this.setData({
         accelerometerX: result.x,
         accelerometerY: result.y,
         accelerometerZ: result.z
-      })
-      console.log("{" + result.x + ", " + result.y + ", " + result.z + "}")
+      });
+      console.log("{" + accelerometerDeltaX.toFixed(3) + ", " + accelerometerDeltaY.toFixed(3) + ", " + accelerometerDeltaZ.toFixed(3) + "}");
     })
   },
 
